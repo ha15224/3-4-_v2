@@ -2,7 +2,7 @@ import json
 import math
 import numpy as np
 
-with open("zuiun1.json", "r", encoding="utf-8") as f:
+with open("JSONNAME.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 tally = []
@@ -190,4 +190,5 @@ print("ctorp:", avg_ctorp)
 print("cvshell:", avg_cvshell)
 print("yasen:", avg_yasen)
 print("nzci:", avg_nzci)
+
 print("gunci:", avg_gunci)
